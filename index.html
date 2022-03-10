@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head><title>Digital clock</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css"/>
+        <link rel="https://dl.dafont.com/dl/?f=alarm_clock"/>
+    </head>
+    <body>
+        <div class="container">
+            <div class="clock">
+                <div class="time">
+                    <h2 class='clockTime'></h2>
+               
+                <div class="hour hand"></div>
+                <div class="minute hand"></div>
+                <div class="second hand"></div>
+                <div class="ampm"></div>
+                </div>
+                <div class="timeContent">
+                    <div class="calender">
+                        <label>Month</label>
+                        <label>Date</label>
+                    <div class="timeMonths"></div>
+                    <label>Days</label>
+                    <div class="days"></div>  
+                </div>
+                <div class="weather">
+                    <img class="icon"  src="http://openweathermap.org/img/wn/10d@2x.png" alt="" />
+                    <h2 class="time-zone"></h2>
+                    <div class="temp">30</div>
+                </div>
+                    
+                </div>
+            </div>
+
+            <div class="buttons">
+                <ul>
+                    <li>
+                        <span class="filter">
+                            <ion-icon name="color-palette-outline"></ion-icon>
+                        </span>
+                    </li>
+                    <li>
+                        <span class="speaker">
+                            <ion-icon name="volume-medium-outline"></ion-icon>
+                        </span>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        <script src="js/main.js"></script>
+        </body>
+        </html>
